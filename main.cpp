@@ -6,7 +6,7 @@
 int main() {
  // 1) basic console i/o
  std::println("Hello {}!", "print") ;  //la til ln for linje skifte
- std::cout.set(std::ios::unitbuf); // set unitbuf for å flush output buffer etter hver output operasjon
+// set unitbuf for å flush output buffer etter hver output operasjon
  std::cout << "Hello, cout!"  << std::endl; // la til std::endl for linje skifte og flusher console output buffer
 
  //2) variabler og data types
