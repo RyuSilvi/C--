@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles\\hello.dir\\my_module.cpp.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "my_module",
+          "source-path": "C:/Users/anime/C++/my_module.cpp"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,24 @@
+# ninja log v7
+20	653	8020622538152204	CMakeFiles/hello.dir/main.cpp.obj.ddi	5d0c37cdff304b3f
+273	302	8020626707819735	CMakeFiles/hello.dir/CXX.dd	a30d53b2412a049d
+273	302	8020626707819735	C:/Users/anime/C++/build/CMakeFiles/hello.dir/CXXModules.json	a30d53b2412a049d
+273	302	8020626707819735	CMakeFiles/hello.dir/main.cpp.obj.modmap	a30d53b2412a049d
+1467	2888	8020626719751653	CMakeFiles/hello.dir/main.cpp.obj	81007948095cf77e
+2888	3056	8020626733964668	hello.exe	1d0e1136d8e2013b
+4	726	8032603066594400	build.ninja	4cd8048c747976db
+15	273	8020626705237398	CMakeFiles/hello.dir/my_module.cpp.obj.ddi	55fd85c097124297
+273	302	8020626707819735	CMakeFiles/hello.dir/my_module.cpp.obj.modmap	a30d53b2412a049d
+304	1466	8020626719496113	CMakeFiles/hello.dir/my_module.cpp.obj	358bc3be9c80e5e9
+304	1466	8020626719496113	CMakeFiles/hello.dir/my_module.pcm	358bc3be9c80e5e9
+72	273	8032603305277530	CMakeFiles/hello.dir/main.cpp.obj.ddi	38989e9b60f76282
+273	317	8032603307680440	CMakeFiles/hello.dir/CXX.dd	aaaab9328584f1a6
+273	317	8032603307680440	C:/Users/anime/C++/build/CMakeFiles/hello.dir/CXXModules.json	aaaab9328584f1a6
+273	317	8032603307680440	CMakeFiles/hello.dir/main.cpp.obj.modmap	aaaab9328584f1a6
+323	473	8032603307790499	CMakeFiles/hello.dir/main.cpp.obj	16990bc99c7f234e
+474	819	8032603309296961	hello.exe	79c2ef955577d906
+14	4442	8032606012621062	CMakeFiles/hello.dir/main.cpp.obj.ddi	38989e9b60f76282
+4442	4481	8032606056894915	CMakeFiles/hello.dir/CXX.dd	aaaab9328584f1a6
+4442	4481	8032606056894915	C:/Users/anime/C++/build/CMakeFiles/hello.dir/CXXModules.json	aaaab9328584f1a6
+4442	4481	8032606056894915	CMakeFiles/hello.dir/main.cpp.obj.modmap	aaaab9328584f1a6
+4482	5932	8032606057300717	CMakeFiles/hello.dir/main.cpp.obj	16990bc99c7f234e
+5933	6122	8032606071803919	hello.exe	79c2ef955577d906

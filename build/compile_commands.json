@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/anime/C++/build",
+  "command": "C:\\Users\\anime\\.utils\\llvm-mingw\\bin\\clang++.exe -g -std=gnu++23 -Werror -Wall -Wextra -Wconversion -Wshadow @CMakeFiles\\hello.dir\\main.cpp.obj.modmap -o CMakeFiles\\hello.dir\\main.cpp.obj -c C:\\Users\\anime\\C++\\main.cpp",
+  "file": "C:\\Users\\anime\\C++\\main.cpp",
+  "output": "CMakeFiles\\hello.dir\\main.cpp.obj"
+}
+]

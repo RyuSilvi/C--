@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/anime/C++/build/default",
+  "command": "C:\\Users\\anime\\.utils\\llvm-mingw\\bin\\clang++.exe -g -std=gnu++11 -o CMakeFiles\\hello.dir\\main.cpp.obj -c C:\\Users\\anime\\C++\\main.cpp",
+  "file": "C:\\Users\\anime\\C++\\main.cpp",
+  "output": "CMakeFiles\\hello.dir\\main.cpp.obj"
+}
+]

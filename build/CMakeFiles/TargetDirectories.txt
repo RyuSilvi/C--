@@ -1,0 +1,3 @@
+C:/Users/anime/C++/build/CMakeFiles/hello.dir
+C:/Users/anime/C++/build/CMakeFiles/edit_cache.dir
+C:/Users/anime/C++/build/CMakeFiles/rebuild_cache.dir
