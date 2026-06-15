@@ -6,6 +6,7 @@
 #include <algorithm>
 #include <fstream>
 #include <map>
+#include <set>
 
 auto multiply(int a, int b) -> int {
     // Implementation for multiplication
@@ -222,6 +223,10 @@ class House {
         
 
         //set
+        std::set uniqueSet {1, 2, 3, 4, 5, 4,3,2,1,}; // creating a set of unique integers
+        for(auto element : uniqueSet){
+            std::print("{} ", element); // printing the unique elements of the set
+        }
 }
 
 

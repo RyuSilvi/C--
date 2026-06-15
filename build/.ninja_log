@@ -30,3 +30,9 @@
 449	483	8032702171391854	CMakeFiles/hello.dir/main.cpp.obj.modmap	aaaab9328584f1a6
 485	2426	8032702171753068	CMakeFiles/hello.dir/main.cpp.obj	16990bc99c7f234e
 2427	2622	8032702191170027	hello.exe	79c2ef955577d906
+21	362	8032703309486547	CMakeFiles/hello.dir/main.cpp.obj.ddi	38989e9b60f76282
+362	396	8032703312897444	CMakeFiles/hello.dir/CXX.dd	aaaab9328584f1a6
+362	396	8032703312897444	C:/Users/anime/C++/build/CMakeFiles/hello.dir/CXXModules.json	aaaab9328584f1a6
+362	396	8032703312897444	CMakeFiles/hello.dir/main.cpp.obj.modmap	aaaab9328584f1a6
+397	2366	8032703313252928	CMakeFiles/hello.dir/main.cpp.obj	16990bc99c7f234e
+2367	2548	8032703332944798	hello.exe	79c2ef955577d906
