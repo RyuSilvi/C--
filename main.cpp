@@ -26,15 +26,7 @@ std::string name ( "Alice" ); // string variable
 [[ maybe_unused]]
 bool isWrong {true}; // boolean variable
 
-const int c {50}; // constant integer variable
-// c = 100; // error: cannot assign to a variable that is const
-constexpr int d { 100 }; // constexpr variable, must be initialized with a constant expression
-// d = 200; // error: cannot assign to a variable that is constexpr
 
-int userInput; // variable to hold user input
-std::cin >> userInput; 
-const int e { c + userInput }; // e is a constant expression that can be evaluated at compile time because c is a constant and userInput is a runtime value
-std::cout << userInput;
 
 // 4) control structures
 if(isWrong){
