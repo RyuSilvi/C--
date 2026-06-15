@@ -4,6 +4,6 @@
 
 int main() {
  // 1) basic console i/o
- std::print("Hello {}!", "print") ;
- std::cout << "Hello, cout!" ;
+ std::println("Hello {}!", "print") ;  //la til ln for linje skifte
+ std::cout << "Hello, cout!"  << std::endl; // la til std::endl for linje skifte
 }
