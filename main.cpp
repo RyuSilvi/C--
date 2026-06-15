@@ -2,6 +2,11 @@
 #include <iostream>
 #include <string>
 
+auto multiply(int a, int b) -> int {
+    // Implementation for multiplication
+    return a * b;
+}
+
 
 int main() {
  // 1) basic console i/o
@@ -15,6 +20,7 @@ int main() {
  a = 100;  // reassigning a new value to the integer variable 
 [[maybe_unused]]
 unsigned  b { 100 }; // unsigned integer variable
+int c {20};
 [[maybe_unused]]
 char letter { 'A' }; // char variable
 [[maybe_unused]]
@@ -25,7 +31,6 @@ double doubly { 4.342345432 }; // double variable
 std::string name ( "Alice" ); // string variable
 [[ maybe_unused]]
 bool isWrong {true}; // boolean variable
-
 
 
 // 4) control structures
@@ -42,5 +47,37 @@ for(int counter{0} ; counter < 100 ; counter+=1){
     // noe code her 
     std::cout << counter << std::endl;
 } 
+
+while(isWrong){
+    // noe code her
+    std::cout << "this is wrong!" << std::endl;
+    isWrong = false; // for å unngå en evig loop
+}
+
+// 6) functions
+int result = multiply(a, c);
+std::println("the result of multiplying {} and {} is {}", a, c, result); // la til en print statement for å vise resultatet av multiplikasjonen
+
+auto add = [](int a, int b) -> int { // lambda function for addition
+    return a + b;
+};
+
+result = add(a, c);
+std::println("result {}",result); // la til en print statement for å vise resultatet av addisjonen
+
+// 7) arrays and vectors
+int array[5] {1, 2, 3, 4, 5}; // array of integers
+array[2] = 6;
+
+std::array<int, 5> modernArray {1, 2, 3, 4, 5}; // modern array using std::array
+modernArray.at(2) = 6; // using at() method to access and modify elements in std::array
+
+std::vector <int> numVector {1, 2, 3, 4, 5}; // vector of integers
+numVector.push_back(6); // adding an element to the end of the vector
+
+for(auto element : numVector){
+    std::print("{} ", element); // range-based for loop to print elements of the vector
+}
+std::println("\nEnd!");
 
 }
