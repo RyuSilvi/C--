@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <array>
+#include <algorithm>
 
 auto multiply(int a, int b) -> int {
     // Implementation for multiplication
@@ -171,6 +172,15 @@ class House {
         }
         house->printInfo(); // calling printInfo through the pointer to see the information of the house being pointed to}
 
+
+        // 11) STL algorithms
+        std::vector<int> anotherVector {5, 3, 8, 1,5, 2};
+        std::sort(anotherVector.begin(), anotherVector.end()); // sorting the vector using std::sort algorithm
+
+        for(auto num : anotherVector){
+            std::print("{}", num);
+        }
+        std::println("\nvector has been sorted!");
 }
 
 
