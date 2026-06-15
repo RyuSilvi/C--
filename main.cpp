@@ -112,4 +112,65 @@ std::println("zulu is now {}", zulu); // printing the updated value of zulu
 int* ptr {&a}; // pointer to an integer
 std::println("Value of a through pointer: {}", *ptr); // dereferencing the pointer to get the value of a
 
+std::unique_ptr<int> smartPtr{std::make_unique<int>(42)}; // unique pointer to an integer
+std::println("Value through smart pointer: {}", *smartPtr); // dereferencing the smart
+
+// 10) classes and objects
+
+class House {
+    protected: 
+       int price;
+       int height;
+       int width;
+       int numberOfRooms;
+    public:
+        House(int price,int height, int width, int numberOfRooms) 
+        :price{price}, height{height}, width{width}, numberOfRooms{numberOfRooms}
+         {
+            std::println("another house has been built!");
+        }
+
+        void printInfo(){
+            std::println("House info: price {}\n, height {}\n, width {}\n, number of rooms {}", price, height, width, numberOfRooms);
+         }
+        };
+
+        House myHome(100000,10,20,5); // creating an object of the House class
+        myHome.printInfo(); // calling the printInfo method to display the information about the house
+
+        //10) Inheritance
+
+        class SpecialHouse : public House { // SpecialHouse inherits from House
+            public:
+                SpecialHouse(int mult) : House(mult*100000, mult*10, mult*20, mult*5) { // constructor for SpecialHouse that calls the constructor of House with modified parameters
+                    std::println("a special house has been built!");
+                }
+
+                void jump(){
+                    std::println("the special house is jumping!");
+                }
+
+    
+                void priceValue(int amount){
+                    price += amount; // modifying the price of the house through a method in the derived class
+                }
+
+        };
+
+        SpecialHouse minVilla(100);
+        minVilla.printInfo(); // calling the printInfo method inherited from House to display the information about the special house
+        minVilla.jump(); // calling the jump method of the SpecialHouse class
+        minVilla.priceValue(50000); // modifying the price of the special house using the priceValue method
+        minVilla.printInfo(); // calling printInfo again to see the updated price of the special
+
+        House* house;
+        if(!isWrong){
+            house = &myHome; // pointing to myHome if isWrong is true
+        } else {
+            house = &minVilla; // pointing to minVilla if isWrong is false
+        }
+        house->printInfo(); // calling printInfo through the pointer to see the information of the house being pointed to}
+
 }
+
+
