@@ -4,6 +4,7 @@
 #include <vector>
 #include <array>
 #include <algorithm>
+#include <fstream>
 
 auto multiply(int a, int b) -> int {
     // Implementation for multiplication
@@ -181,6 +182,33 @@ class House {
             std::print("{}", num);
         }
         std::println("\nvector has been sorted!");
+
+        // 12 error handling with exceptions
+        try {
+            // do some stuff
+            throw std::runtime_error("something went wrong!"); // throwing a runtime error exception
+
+            std::println("this will not be printed because an exception has been thrown!"); // this line will not be executed
+        } catch(const std::exception& e){
+            std::cerr << "Caught an exception: " << e.what() << std::endl; // catching the exception and printing
+        }catch(...){
+            std::cerr << "Caught an unknown exception!" << std::endl; // catching any other types of exceptions
+        }
+
+        // 13 ) auto
+       const auto& test = std::string("this is a test string"); // using auto to deduce the type of the variable test
+
+        // 13) File I/O
+        std::ofstream file("output.txt"); // creating an output file stream to write to a file named "output.txt"
+        file << "Test data" << std::endl;
+        file.close(); // closing the file stream
+
+        std::ifstream inFile("output.txt"); // creating an input file stream to read from the file "output.txt"
+        std::string line;
+        while(std::getline(inFile, line)){
+            std::println("[READ] \"{}\"", line); // printing each line read from the file
+        }
+
 }
 
 

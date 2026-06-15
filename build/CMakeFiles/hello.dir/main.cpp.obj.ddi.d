@@ -736,4 +736,27 @@ CMakeFiles\hello.dir\main.cpp.obj.ddi: C:/Users/anime/C++/main.cpp \
   C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__algorithm/ranges_ends_with.h \
   C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__algorithm/ranges_starts_with.h \
   C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__algorithm/ranges_find_last.h \
-  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__algorithm/ranges_fold.h
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__algorithm/ranges_fold.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/fstream \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/path.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/iomanip \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/filesystem \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/copy_options.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/directory_entry.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/file_status.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/file_type.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/perms.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/file_time_type.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__chrono/file_clock.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/filesystem_error.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__memory/shared_ptr.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__memory/allocation_guard.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__memory/allocator_destructor.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/operations.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/perm_options.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/space_info.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/directory_iterator.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/directory_options.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/path_iterator.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__filesystem/u8path.h
