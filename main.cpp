@@ -8,6 +8,12 @@
 #include <map>
 #include <set>
 
+namespace myNamespace {
+    int multiply( int a, int b) {
+        return a * a * b;
+    }
+}
+
 auto multiply(int a, int b) -> int {
     // Implementation for multiplication
     return a * b;
@@ -227,6 +233,49 @@ class House {
         for(auto element : uniqueSet){
             std::print("{} ", element); // printing the unique elements of the set
         }
+
+        // tuples
+        std::tuple<std::string, int, double> person {"Alice", 30, 5.5}; // creating a tuple to store a person's name, age, and height
+        std::println("Name: {}, Age: {}, Height: {}", std::get<0>(person), std::get<1>(person), std::get<2>(person)); // accessing the elements of the tuple using std::get
+
+        // function objects
+        struct Square {
+            int operator()(int x) const { // defining the function call operator to make Square a function object
+                return x * x; // returning the square of the input
+            }
+        };
+        Square square; // creating an instance of the Square function object
+        std::println("The square of 5 is {}", square(5)); // calling the function object to calculate the square of 5
+
+        // type inheritance
+        decltype(square) anotherSquare; // using decltype to declare another variable of the same type as square
+        anotherSquare(66);
+
+        // namespace
+        myNamespace::multiply(3, 4); // calling the multiply function from myNamespace
+
+        // enumerations
+        enum class Color { Red, Green, Blue }; // defining a scoped enumeration for colors
+        Color color = Color::Blue;
+
+
+    switch(color){
+        case Color::Red:
+        //if its Red
+        std::println("the color is red!"); // adding a print statement to indicate that the color is red
+        break;
+        case Color::Green:
+        //if its Green
+        std::println("the color is green!"); // adding a print statement to indicate that the color is green
+        break;
+        case Color::Blue:
+        //if its Blue
+        std::println("the color is blue!"); // adding a print statement to indicate that the color is blue
+        break;
+        default:
+        //if its not Red,Green or Blue
+        break;
+    }
 }
 
 
