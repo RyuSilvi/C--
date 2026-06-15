@@ -5,6 +5,7 @@
 #include <array>
 #include <algorithm>
 #include <fstream>
+#include <map>
 
 auto multiply(int a, int b) -> int {
     // Implementation for multiplication
@@ -209,6 +210,18 @@ class House {
             std::println("[READ] \"{}\"", line); // printing each line read from the file
         }
 
+
+        // maps
+        std::map<std::string, int > ageMap {
+            {"Alice", 30},
+            {"Bob", 25},
+            {"Charlie", 35}
+        };
+        auto key = "Alice";
+        std::println("{} is {} years old",key,ageMap[key]); 
+        
+
+        //set
 }
 
 
