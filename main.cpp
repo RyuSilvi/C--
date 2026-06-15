@@ -1,10 +1,20 @@
 #include <print>
 #include <iostream>
 #include <string>
+#include <vector>
+#include <array>
 
 auto multiply(int a, int b) -> int {
     // Implementation for multiplication
     return a * b;
+}
+
+std::optional<int> returnIfCool(int a) {
+    if (a % 2 == 1 && a > 5) {
+        return a; // Return the value if it's odd and greater than 5
+    }else{
+        return std::nullopt; // Return nullopt if the value is not "cool"
+    }
 }
 
 
@@ -79,5 +89,21 @@ for(auto element : numVector){
     std::print("{} ", element); // range-based for loop to print elements of the vector
 }
 std::println("\nEnd!");
+
+
+// 8) optional (as return types)
+auto numOptional = returnIfCool(3456789);
+if(numOptional.has_value()){
+    std::println("the number {} is cool!", numOptional.value()); // using value() method to access the value of the optional
+} else {
+    std::println("the number is not cool!"); // handling the case where the optional does not have a value
+}
+
+//refferences
+
+int zulu { 7 };
+int& refToZulu = zulu; // refToZulu is a reference to zulu
+refToZulu = 10; // changing the value of zulu through the reference
+std::println("zulu is now {}", zulu); // printing the updated value of zulu
 
 }

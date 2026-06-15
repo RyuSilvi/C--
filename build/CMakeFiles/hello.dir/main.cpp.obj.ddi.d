@@ -545,4 +545,24 @@ CMakeFiles\hello.dir\main.cpp.obj.ddi: C:/Users/anime/C++/main.cpp \
   C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__locale_dir/wbuffer_convert.h \
   C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__locale_dir/wstring_convert.h \
   C:/Users/anime/.utils/llvm-mingw/include/c++/v1/ostream \
-  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__ostream/print.h
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__ostream/print.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/vector \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__vector/comparison.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__vector/swap.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__vector/vector.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__iterator/move_iterator.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__iterator/move_sentinel.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__memory/temp_value.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__ranges/as_rvalue_view.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__ranges/all.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__functional/compose.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__functional/perfect_forward.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__ranges/owning_view.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__ranges/range_adaptor.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__split_buffer \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__vector/container_traits.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__type_traits/container_traits.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__vector/vector_bool.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__vector/pmr.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__vector/erase.h \
+  C:/Users/anime/.utils/llvm-mingw/include/c++/v1/__vector/vector_bool_formatter.h
