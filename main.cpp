@@ -103,7 +103,13 @@ if(numOptional.has_value()){
 
 int zulu { 7 };
 int& refToZulu = zulu; // refToZulu is a reference to zulu
+
 refToZulu = 10; // changing the value of zulu through the reference
+
 std::println("zulu is now {}", zulu); // printing the updated value of zulu
+
+// 9) pointers and smart pointers
+int* ptr {&a}; // pointer to an integer
+std::println("Value of a through pointer: {}", *ptr); // dereferencing the pointer to get the value of a
 
 }
