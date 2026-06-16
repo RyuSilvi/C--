@@ -274,6 +274,7 @@ class House {
         break;
         default:
         //if its not Red,Green or Blue
+        std::println("the color is unknown!"); // adding a print statement to indicate that the color is unknown
         break;
     }
 }
