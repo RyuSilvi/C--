@@ -11,6 +11,7 @@ class Enemy {
         Enemy(float health);
         void take_damage(float amount);
         bool is_alive() const;
+    void info() const;
 
 };
 

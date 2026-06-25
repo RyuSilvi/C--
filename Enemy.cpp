@@ -3,6 +3,10 @@
 //
 #include "Enemy.h"
 
+#include <iostream>
+#include <ostream>
+#include <print>
+
 Enemy::Enemy(float health) : health{health} {};
 
     void Enemy::take_damage(float amount) {
@@ -11,4 +15,8 @@ Enemy::Enemy(float health) : health{health} {};
 
     bool  Enemy::is_alive() const {
         return health > 0;
+    }
+
+    void Enemy::info() const {
+        std::println("Enemy HP{}",health);
     }

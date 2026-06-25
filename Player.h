@@ -15,6 +15,7 @@ public:
     Player(float health);
     void attack(Enemy& enemy, float dmg);
     void take_damage(float amount);
+    void info() const;
 
     [[nodiscard]]
     bool is_alive() const;
