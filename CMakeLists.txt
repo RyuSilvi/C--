@@ -5,7 +5,11 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED 23)
 
 
-add_executable(hello)
+add_executable(hello
+        Player.h
+        Enemy.h
+        Player.cpp
+        Enemy.cpp)
 target_sources(hello PRIVATE 
     main.cpp
 )
